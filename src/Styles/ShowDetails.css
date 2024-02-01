@@ -1,0 +1,32 @@
+/* ShowDetails.css */
+
+.show-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .show-card {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .show-card img {
+    width: 100%;
+    max-width: 300px; 
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .show-card button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
